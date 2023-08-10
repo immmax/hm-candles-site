@@ -1,0 +1,63 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    color: black;
+    font-size: 14px;
+    font-family: Comfortaa;
+    font-weight: 400;
+    line-height: 1.2;
+    word-wrap: break-word;
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Yeseva One', cursive; */
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+header{
+    background-color: #FFF8F3;
+}
+
+.header__inner{
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list{
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+}
+
+.phone{
+    position: relative;
+}
+
+.phone::before{
+    content: '';
+    position: absolute;
+    background-image: url(../images/phone.svg);
+    width: 20px;
+    height: 20px;
+    left: -23px;
+    top: -4px;
+}
