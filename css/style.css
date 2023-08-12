@@ -47,6 +47,13 @@ header{
     gap: 20px;
     text-transform: uppercase;
 }
+.menu__list-link:hover{
+    box-shadow: 0.2px 0.2px 5px black;
+    border-radius: 10px;
+    padding:5px;
+    background-color:#BEA495;
+    transition: all 0.1s;
+}
 
 .phone{
     position: relative;
