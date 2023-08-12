@@ -61,3 +61,19 @@ header{
     left: -23px;
     top: -4px;
 }
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.email{
+    margin: 17px 0;
+}
