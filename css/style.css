@@ -24,11 +24,33 @@ a{
     color: inherit;
 }
 
+ul{
+    list-style: none;
+}
+
 .container{
     max-width: 1180px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: auto;
+}
+
+.menu__btn{
+    display: none;
+    width: 30px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu__btn span{
+    height: 1px;
+    background-color: #7b6152;
+    width: 100%;
 }
 
 header{
@@ -47,6 +69,7 @@ header{
     gap: 20px;
     text-transform: uppercase;
 }
+
 .menu__list-link:hover{
     box-shadow: 0.2px 0.2px 5px black;
     border-radius: 10px;
@@ -69,6 +92,11 @@ header{
     top: -4px;
 }
 
+.footer{
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
 .footer__inner{
     display: flex;
     justify-content: space-between;
@@ -83,4 +111,81 @@ header{
 
 .email{
     margin: 17px 0;
+}
+
+.footer__social{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+    .footer__contacts{
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .footer__social{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    body{
+        font-size: 10px;
+    }
+    .container{
+        max-width: 640px;
+    }
+    .phone::before{
+        background-image: url(../images/phone.svg);
+        width: 14px;
+        height: 14px;
+        left: -16px;
+        top: -2px;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 640px) {
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header__menu-list{
+        display: none;
+    }
+    .menu__btn {
+        display: flex;
+    }
+    .header__menu{
+        order: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer__inner {
+        flex-direction: column;
+    }
+    .footer__menu-list {
+        flex-direction: column;
+        padding: 50px 0;
+        text-align: center;
+    }
+    .footer {
+        padding: 50px 0;
+        font-size: 14px;
+    }
 }
