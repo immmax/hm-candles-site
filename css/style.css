@@ -165,7 +165,23 @@ header{
         padding-right: 10px;
     }
     .header__menu-list{
-        display: none;
+        width: 153px;
+        background-color: #7b6152;
+        color:#FFF8F3;
+        flex-direction: column;
+        gap: 20px 0;
+        padding: 25px 35px 25px;
+        border-radius: 0 0 20px 0;
+        /* text-align: center; */
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateY(-110%);
+        transition: transform .5s ease;
+        z-index: 5;
+    }
+    .header__menu-list.menu--open{
+        transform: translateY(0);
     }
     .menu__btn {
         display: flex;
