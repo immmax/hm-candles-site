@@ -60,14 +60,16 @@
           </h3>
           <p class="top__text">
             Создайте особенную атмосферу в своём доме с нашей экологически чистой и качественной
-            продукцией из 100% натурального соевого воска
+            продукцией из 100% натурального соевого воска.
           </p>
           <button class="top__buy">
             Купить
           </button>
         </div>
         <picture class="top__img">
-          <img src="images/top-l.png" alt="">
+          <source srcset="images/top-s.png" media="(max-width: 360px)">
+          <source srcset="images/top-m.png" media="(max-width: 480px)">
+          <img class="top__img-l" src="images/top-l.png" alt="">
         </picture>
       </div>
     </section>
