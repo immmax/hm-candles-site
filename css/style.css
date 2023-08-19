@@ -150,7 +150,7 @@ button{
 
 .about{
     background-color: #A5978E;
-    padding: 50px;
+    padding: 50px 0;
     color: #FAFAFA
 }
 .about__inner{
@@ -276,6 +276,12 @@ button{
     .top__text{
         margin-bottom: 30px;
     }
+    .about__content {
+        min-width: 300px;
+    }
+    .about__list {
+        padding-left: 20px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -315,11 +321,37 @@ button{
         margin-bottom: 20px;
     }
     .top__text{
-        font-size: 10px;
         margin-bottom: 20px;
     }
     .top__img{
         left: 180px;
+    }
+    .about__content{
+        min-width: 200px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .about__title{
+        margin-bottom: 20px;
+    }
+    .about__list{
+        margin-left: 14px;
+        padding-bottom: 32px;
+        gap: 0 9px;
+    }
+    .about__item-text{
+        font-size: 6px;
+    }
+    .about__item-img{
+        margin-bottom: 6px;
+    }
+    .about__item-img--1,
+    .about__item-img--3{
+        width: 120px;
+    }
+    .about__item-img--2 {
+        width: 190px;
     }
 }
 
@@ -393,6 +425,31 @@ button{
     .top{
         padding: 30px 0 50px;
     }
+    .about__content{
+        min-width: 170px;
+    }
+    .about__list{
+        margin-left: 0;
+        padding-left: 10px;
+    }
+    .about__item-text{
+        display: none;
+    }
+    .about__item-img--1,
+    .about__item-img--3 {
+        width: 80px;
+    }
+    .about__item-img--2 {
+        width: 140px;
+    }
+    .about__list{
+        gap: 0 10px;
+        align-items: flex-end;
+        margin-bottom: 0;
+    }
+    .about__inner{
+        align-items: flex-end;
+    }
 }
 
 @media (max-width: 360px) {
@@ -414,5 +471,27 @@ button{
         font-size: 9px;
         position: relative;
         z-index: 1;
+    }
+    body{
+        font-size: 8px;
+    }
+    .about__content{
+        min-width: 233px;
+    }
+    .title{
+        margin-bottom: 10px;
+    }
+    .about__list{
+        padding-left: 12px;
+        margin-left: 12px;
+        gap: 0 15px;
+        padding-bottom: 30px;
+    }
+    .about{
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .about__item-img--2{
+        display: none;
     }
 }
