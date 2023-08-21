@@ -32,6 +32,15 @@ button{
     border-radius: 0;
 }
 
+.title {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.section{
+    padding-bottom: 150px;
+}
+
 .container{
     max-width: 1180px;
     padding-left: 20px;
@@ -53,6 +62,15 @@ button{
     background-color: #7b6152;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
 
 .header{
     background-color: #FFF8F3;
@@ -148,10 +166,14 @@ button{
 
 
 
+
+
+
 .about{
     background-color: #A5978E;
     padding: 50px 0;
-    color: #FAFAFA
+    color: #FAFAFA;
+    margin-bottom: 150px;
 }
 .about__inner{
     display: flex;
@@ -159,10 +181,6 @@ button{
 }
 .about__content{
     min-width: 370px;
-}
-.about__title{
-    margin-bottom: 15px;
-    font-size: 40px;
 }
 .about__text{
     margin-bottom: 15px;
@@ -181,7 +199,7 @@ button{
     position: absolute;
     left: 0;
     bottom: 0;
-    background-image: url(../images/section-decor.png);
+    background-image: url(../images/section-decor.png );
     width: 22px;
     height: 30px;
 }
@@ -200,6 +218,41 @@ button{
 .about__item-text{
     font-size: 11px;
 }
+
+
+
+
+
+
+
+
+
+.section__inner{
+    display: grid;
+    grid-template-columns: 370px auto;
+}
+
+.section__content-descr{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.products__content{
+    gap: 50px 90px;
+}
+
+.products__item{
+    width: 290px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
