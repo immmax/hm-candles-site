@@ -386,6 +386,16 @@ button{
     .about__list {
         padding-left: 20px;
     }
+    .section__inner {
+        grid-template-columns: 290px auto;
+        gap: 0 10px;
+    }
+    .products__content {
+        gap: 67px;
+    }
+    .section__text{
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 900px) {
