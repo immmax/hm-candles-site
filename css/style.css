@@ -410,6 +410,13 @@ button{
     .footer__social{
         justify-content: center;
     }
+    .section__inner {
+        grid-template-columns: 200px auto;
+        gap: 0 10px;
+    }
+    .products__content {
+        gap: 30px 16px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -466,6 +473,29 @@ button{
     }
     .about__item-img--2 {
         width: 190px;
+    }
+    .products__item{
+        width: 200px;
+    }
+    .products__item-img{
+        width: 200px;
+        margin-bottom: 6px;
+    }
+    .button{
+        font-size: 12px;
+        padding: 10px 26px;
+    }
+    .product__item-text{
+        font-size: 8px;
+        margin-bottom: 18px;
+    }
+    .products__item-price{
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+    .products__item-title{
+        font-size: 12px;
+        margin-bottom: 9px;
     }
 }
 
