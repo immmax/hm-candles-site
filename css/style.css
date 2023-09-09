@@ -529,6 +529,13 @@ button{
     .header__menu{
         order: 1;
     }
+    .section__inner{
+        display: block;
+    }
+    .section__descr{
+        margin-bottom: 30px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 500px) {
@@ -593,6 +600,19 @@ button{
     }
     .about__inner{
         align-items: flex-end;
+    }
+    .about{
+        margin-bottom: 50px;
+    }
+    .section{
+        padding-bottom: 50px;
+    }
+    .section__content-descr{
+        padding-bottom: 62px;
+    }
+    .section__descr{
+        margin: 0 auto;
+        width: 300px;
     }
 }
 
