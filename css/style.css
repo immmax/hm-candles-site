@@ -309,6 +309,50 @@ button{
 
 
 
+.steps__list{
+    gap: 70px 25px;
+    counter-reset: number;
+}
+
+.steps__item{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    position: relative;
+}
+
+.steps__item::before{
+    counter-increment: number;
+    content: '0' counter(number);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 30px;
+    color: #BEA495;
+    font-family: "Yeseva One", cursive;
+}
+
+.steps__item:nth-child(n+10):before {
+    content: counter(number);
+}
+.steps__item.steps__item--even::before{
+    left: auto;
+    right: 0;
+}
+
+.steps__item-text{
+    flex-basis: 174px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
