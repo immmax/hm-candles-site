@@ -440,6 +440,12 @@ button{
     .section__text{
         font-size: 10px;
     }
+    .steps__list{
+        gap: 37px 35px;
+    }
+    .steps__item{
+        gap: 0 30px;
+    }
 }
 
 @media (max-width: 900px) {
