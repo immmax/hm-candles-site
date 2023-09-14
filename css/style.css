@@ -695,6 +695,9 @@ button{
         margin: 0 auto;
         width: 300px;
     }
+    .steps__item{
+        gap: 25px 40px;
+    }
 }
 
 @media (max-width: 360px) {
