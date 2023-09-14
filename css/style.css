@@ -695,10 +695,23 @@ button{
         margin: 0 auto;
         width: 300px;
     }
-    .steps__item{
+    .steps__list{
         gap: 25px 40px;
     }
 }
+
+@media (max-width: 404px) {
+    .steps__list {
+        gap: 20px 25px;
+    }
+    .steps__item {
+        gap: 0 16px;
+    }
+    .steps__item-img{
+        width: 66px;
+    }
+}
+
 
 @media (max-width: 360px) {
     .top__img-l{
@@ -768,5 +781,8 @@ button{
     }
     .product__item-text{
         margin-bottom: 16px;
+    }
+    .steps__item-text {
+        font-size: 6px;
     }
 }
