@@ -618,6 +618,21 @@ button{
         font-size: 12px;
         margin-bottom: 9px;
     }
+    .course__title{
+        padding: 6px;
+        left: -1px;
+        top: 40%;
+    }
+    .course__time{
+        padding: 5px;
+        left: -1px;
+        top: 55%;
+    }
+    .course__price{
+        padding: 10px;
+        right: 0;
+        bottom: 9px;
+    }
 }
 
 @media (max-width: 640px) {
