@@ -765,6 +765,9 @@ button{
     .steps__item-img{
         width: 66px;
     }
+    .course__content{
+        grid-template-columns: auto;
+    }
 }
 
 
@@ -839,5 +842,9 @@ button{
     }
     .steps__item-text {
         font-size: 6px;
+    }
+    .course__item,
+    .course__item img {
+        width: 255px;
     }
 }
