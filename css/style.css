@@ -525,6 +525,15 @@ button{
     .steps__title{
         font-size: 35px;
     }
+    .team__content{
+        gap: 30px 20px;
+    }
+    .team__title{
+        font-size: 32px;
+    }
+    .team{
+        padding: 50px 0;
+    }
 }
 
 @media (max-width: 980px) {
@@ -567,6 +576,9 @@ button{
     }
     .steps__title {
         font-size: 25px;
+    }
+    .team__title {
+        font-size: 22px;
     }
 }
 
@@ -663,6 +675,21 @@ button{
         right: 0;
         bottom: 9px;
     }
+    .team__img{
+        width: 140px;
+    }
+    .team__item-box{
+        padding: 9px 6px 10px;
+        width: 110px;
+        bottom: 8px;
+        right: -15px;
+    }
+    .team__item-name{
+        font-size: 8px;
+    }
+    .team__item-descr{
+        font-size: 7px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -699,8 +726,12 @@ button{
         display: block;
     }
     .section__descr{
-        margin-bottom: 30px;
+        padding-bottom: 30px;
         text-align: center;
+    }
+    .team__item-box {
+        right: auto;
+        left: 80px;
     }
 }
 
@@ -783,6 +814,9 @@ button{
     .steps__list{
         gap: 25px 40px;
     }
+    .team{
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 404px) {
@@ -797,6 +831,24 @@ button{
     }
     .course__content{
         grid-template-columns: auto;
+    }
+    .team__content{
+        grid-template-columns: auto;
+    }
+    .team__img{
+        width: 220px;
+    }
+    .team__item-box {
+        width: 160px;
+        right: auto;
+        left: 148px;
+        bottom: 15px;
+    }
+    .team__item-name {
+        font-size: 12px;
+    }
+    .team__item-descr {
+        font-size: 10px;
     }
 }
 
