@@ -473,7 +473,7 @@ button{
 }
 .feedback__slider{
     width: 760px;
-    overflow: hidden;
+
 }
 
 .feedback__content .swiper-pagination{
@@ -489,6 +489,28 @@ button{
 .swiper-pagination-bullet-active{
     background-color: #7B6152;
 }
+
+
+
+
+
+.certificates__slider{
+    width: 1135px;
+    overflow: hidden;
+}
+.certificates__descr{
+    margin-right: 20px;
+}
+.certificates__content{
+    padding-bottom: 114px;
+}
+.certificates__content .swiper-pagination {
+    bottom: 60px;
+    text-align: left;
+}
+
+
+
 
 
 
