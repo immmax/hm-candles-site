@@ -11,3 +11,12 @@ const swiperFeedback = new Swiper('.feedback__slider', {
         el: '.swiper-pagination',
     },
 });
+
+const swiperCertificate = new Swiper('.certificates__slider', {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 20,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+});
