@@ -506,7 +506,7 @@ button{
 }
 .certificates__content .swiper-pagination {
     bottom: 60px;
-    text-align: left;
+    /* text-align: left;  */
 }
 
 
@@ -597,26 +597,38 @@ button{
     .products__content {
         gap: 67px;
     }
-    .section__text{
+    .section__text {
         font-size: 10px;
     }
-    .steps__list{
+    .steps__list {
         gap: 37px 35px;
     }
-    .steps__item{
+    .steps__item {
         gap: 0 30px;
     }
-    .steps__title{
+    .steps__title {
         font-size: 35px;
     }
-    .team__content{
+    .team__content {
         gap: 30px 20px;
     }
-    .team__title{
+    .team__title {
         font-size: 32px;
     }
-    .team{
+    .team {
         padding: 50px 0;
+    }
+    .feedback__inner {
+        grid-template-columns: 260px;
+    }
+    .feedback__slider {
+        width: 690px;
+    }
+    .sertificate__content img {
+        width: 280px;
+    }
+    .sertificate__slider {
+        width: 880px;
     }
 }
 
